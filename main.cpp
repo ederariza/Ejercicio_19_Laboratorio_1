@@ -13,6 +13,7 @@ int main(){
 
     int numero_ingresado;
     int contador = 0;
+
     cout << "Ingrese el numero: ";
     cin >> numero_ingresado;
 
@@ -31,7 +32,6 @@ int main(){
                      if((contador == 2) && (i == numero_ingresado)){
                          cout << "El numero " << numero_ingresado << " es primo" << endl;
                      }
-
                 }
         }
     }
