@@ -17,19 +17,19 @@ int main(){
     cout << "Ingrese el numero: ";
     cin >> numero_ingresado;
 
-    for(int i=1; i<=numero_ingresado; i++) {
+    for (int i=1; i<=numero_ingresado; i++) {
 
-        if((numero_ingresado % i) == 0) {
+        if ((numero_ingresado % i) == 0) {
                 contador += 1;
 
-                if((contador > 2) || (numero_ingresado == 1)) {
+                if ((contador > 2) || (numero_ingresado == 1)) {
                     cout << "El numero " << numero_ingresado << " no es primo" << endl;
                     break;
                 }
 
                 else {
 
-                     if((contador == 2) && (i == numero_ingresado)){
+                     if ((contador == 2) && (i == numero_ingresado)){
                          cout << "El numero " << numero_ingresado << " es primo" << endl;
                      }
                 }
